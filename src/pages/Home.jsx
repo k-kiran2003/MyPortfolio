@@ -12,7 +12,7 @@ export default function Home() {
                     </div>
                 </div>
                 <div className="myPhoto">
-                    <img src="/public/myPhoto.jpeg" className="img-fluid " alt="profile"></img>
+                    <img src="/myPhoto.jpeg" className="img-fluid " alt="profile"></img>
 
                 </div>
             </main>
