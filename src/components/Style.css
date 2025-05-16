@@ -1,0 +1,273 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", serif;
+    /* overflow: auto; */
+    overflow-x: hidden;
+    background-color: rgb(0, 0, 0);
+    color: rgb(182, 97, 18);
+    /* color: #0353a4; */
+
+}
+
+/* header{
+    width: 100vw;
+        position: sticky;
+        top: 0;
+        z-index: 1;
+        padding: 1rem 0 1rem 0;
+        margin: 0;
+        
+} */
+nav {
+    width: 100vw;
+    /* position: sticky; */
+    top: 0;
+    z-index: 1;
+    padding: 1rem 0 1rem 0;
+
+    background-color: #1A1A1A;
+
+    margin-top: 0;
+
+
+}
+
+nav ul li a:hover {
+    background-color: rgb(182, 97, 18);
+    cursor: pointer;
+
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+.linkColor a {
+    color: white;
+}
+
+.linkColor a:hover {
+    color: white;
+}
+
+main {
+    /* margin-left: 4rem; */
+    margin: 4rem;
+    display: flex;
+    justify-content: space-around;
+
+
+    align-items: center;
+    background-color: #1A1A1A;
+    padding: 2rem;
+
+
+}
+
+.intro {
+
+    width: 50%;
+    /* margin-left: 1rem; */
+
+
+}
+
+.scrolling-text span {
+    color: #00a8e8;
+    font-weight: bold;
+    animation: move;
+    /* padding: 0.5rem; */
+}
+
+
+.scrolling-text h3 {
+    color: rgb(182, 97, 18);
+}
+
+.intro div {
+    align-items: center;
+    /* margin: 10rem; */
+}
+
+.myPhoto {
+
+    /* margin-right: 1rem; */
+    width: 50%;
+
+
+
+}
+
+.myPhoto img {
+    /* margin-top: 2rem; */
+    /* margin-left: 8rem; */
+    object-fit: contain;
+    height: 30rem;
+    width: 30rem;
+
+}
+
+@media (max-width: 600px) {
+
+    /* Flexbox properties for the main container */
+    main {
+        justify-content: center;
+        display: flex;
+        /* Make sure the parent container is a flex container */
+        flex-wrap: wrap;
+        /* Allow wrapping of child elements */
+        background-color: black;
+        /* Background color for the whole main section */
+    }
+
+    /* Styling for the about-photos section */
+    .about-photos {
+        display: flex;
+        /* Ensure the section is also a flex container */
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: cente;
+
+        /* Allow wrapping inside this section */
+        background-color: black;
+        /* Background color for about-photos */
+    }
+
+    /* Styling for the about-me section */
+    .about-me {
+        display: flex;
+        /* Make sure it's a flex container */
+        flex-wrap: wrap;
+        /* Allow wrapping */
+        background-color: black;
+        /* Background color for about-me */
+
+    }
+
+    /* Optional: Change flex-direction to column for mobile */
+    main,
+    .about-photos,
+    .about-me {
+        background-color: black;
+        justify-content: center;
+        flex-direction: column;
+        /* Stack items vertically on small screens */
+    }
+}
+
+.contact {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+
+}
+
+.contactinfo {
+    width: 50%;
+    /* display: flex; */
+    /* flex-direction: column;
+        justify-content: center; */
+
+}
+
+.contactinfo input {
+    margin: 0 2rem 2rem 3rem;
+    width: 50%;
+}
+
+.contactinfo label,
+button,
+textarea {
+    margin: 0 2rem 2rem 3rem;
+}
+
+.contactinfo textarea {
+    width: 70%;
+}
+
+.contact h1,
+h4,
+p {
+    margin: 2rem 1rem 1rem 1rem;
+}
+
+.btn1 {
+    background-color: rgb(182, 97, 18);
+    color: white;
+    transition: none;
+    border: none;
+    padding: 0.6rem;
+    border-radius: 0.5rem;
+}
+
+/* #about-page{
+  
+    display: flex;
+    flex-direction: row;
+    margin: 2rem;
+    background-color:rgb(17, 15, 15) ;
+} */
+
+
+
+.about-photos {
+    display: flex;
+    /* align-items: start;
+    width: 30%;
+    /* background-color: #1A1A1A; */
+    justify-content: center;
+
+}
+
+.about-photos img {
+
+    object-fit: contain;
+    height: 20rem;
+    width: 20rem;
+    outline: none;
+
+
+}
+
+.about-me {
+    margin: 2rem;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    width: 60%;
+
+    height: auto;
+
+    /* background-color: #1A1A1A; */
+}
+
+.about-me h1,
+h2,
+h3 {
+    color: #00a8e8;
+}
+
+.about-me ul li {
+    list-style-type: none;
+}
+
+.footer {
+    width: 60vw;
+
+    margin: auto;
+    padding: 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+}
