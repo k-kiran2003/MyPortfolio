@@ -4,7 +4,7 @@ export default function About() {
     return (
         <main className="about-section">
             <div className="about-photos">
-                <img src='/public/myImage.jpeg' alt="Kiran" className="img-fluid" />
+                <img src='/myImage.jpeg' alt="Kiran" className="img-fluid" />
             </div>
 
             <div className="about-me">
