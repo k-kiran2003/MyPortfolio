@@ -7,7 +7,7 @@ export default function Resume() {
 
             <main style={{ backgroundColor: 'black', margin: '1rem' }}>
                 <iframe
-                    src="/Resume.pdf"
+                    src="Resume.pdf"
                     width="100%"
                     height="600px"
                     title="Resume PDF"
