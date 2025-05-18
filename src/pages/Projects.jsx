@@ -4,10 +4,10 @@ const Projects = () => {
     const projectList = [
         {
             id: 1,
-            title: 'Simon Says Game',
-            image: '/simon.png',
+            title: 'Weather Widget',
+            image: '/2025-05-18.png',
             description:
-                'A classic memory and coordination game built using HTML, CSS, and JavaScript. It demonstrates DOM manipulation, event handling, and interactive UI logic.',
+                'A weather widget built with React that fetches real-time weather data using an API and displays temperature, humidity, and conditions dynamically.',
             link: 'https://github.com/k-kiran2003/SIMON-SAYS-Game.git',
         },
         {
