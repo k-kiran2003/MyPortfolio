@@ -8,7 +8,7 @@ const Projects = () => {
             image: '/2025-05-18.png',
             description:
                 'A weather widget built with React that fetches real-time weather data using an API and displays temperature, humidity, and conditions dynamically.',
-            link: 'https://github.com/k-kiran2003/SIMON-SAYS-Game.git',
+            link: 'https://github.com/k-kiran2003/weather-widget.git',
         },
         {
             id: 2,
